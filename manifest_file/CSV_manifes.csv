@@ -1,0 +1,7 @@
+FileName,BrandName,ClassType,AlcoholContent,NetContents,BottlerOrProducerName,BottlerOrProducerAddress,CountryOfOrigin,BeverageType
+label001.png,Sunrise Vineyards,Table Wine,13.5% ABV,750 mL,Sunrise Vineyards LLC,"123 Vineyard Lane, Napa, CA 94558",United States,Wine
+label002.png,High Ridge Bourbon,Whisky,45% ABV,750 mL,High Ridge Distilling Co.,"250 Barrel Street, Louisville, KY 40202",United States,DistilledSpirits
+label003.png,Alpine Lager,Beer,5.2% ABV,355 mL,Alpine Brewing GmbH,"Bergstrasse 12, 8001 Zürich",Switzerland,Beer
+label004.png,Coastal Gin,Gin,40% ABV,700 mL,Coastal Spirits Ltd.,"18 Harbor Road, Brighton BN1 1AA",United Kingdom,DistilledSpirits
+label005.png,Terra Azul Cachaça,Cachaça,38% ABV,1000 mL,Destilaria Terra Azul,"Rua das Palmeiras 45, Rio de Janeiro, RJ",Brazil,DistilledSpirits
+boldwhiskeygov.png,Bold Whiskey,Straight Bourbon Whiskey,45%ABV,750 mL,Acme Distillery,"123 Main St, Louisville, KY",United States,DistilledSpirits

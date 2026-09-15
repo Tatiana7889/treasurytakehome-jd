@@ -1,0 +1,333 @@
+:root {
+  --ink: #1c2430;
+  --paper: #fbfaf7;
+  --panel: #ffffff;
+  --line: #d8d4c8;
+  --navy: #1f3a5f;
+  --navy-dim: #3a557c;
+  --amber: #a3590b;
+  --amber-bg: #fbf0e2;
+  --green: #2c5f40;
+  --green-bg: #e9f2ec;
+  --red: #8c2f2f;
+  --red-bg: #f8ebea;
+  --muted: #6b6a63;
+
+  --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+a { color: var(--navy); }
+
+.app-shell {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+  padding: 1.1rem 2rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.app-header .brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.app-header h1 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--navy);
+}
+
+.app-header .agency-tag {
+  font-size: 0.8rem;
+  color: var(--muted);
+  border-left: 1px solid var(--line);
+  padding-left: 0.6rem;
+}
+
+.app-nav {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.92rem;
+}
+
+.app-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.app-nav a.active,
+.app-nav a:hover {
+  color: var(--navy);
+  border-bottom-color: var(--navy);
+}
+
+main.app-main {
+  flex: 1;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+.page-intro h2 {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  margin: 0 0 0.4rem;
+  max-width: 40ch;
+}
+
+.page-intro p {
+  color: var(--muted);
+  max-width: 62ch;
+  margin: 0 0 2rem;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1.75rem;
+}
+
+.field-group {
+  margin-bottom: 1.25rem;
+}
+
+.field-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.field-group .hint {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+
+.field-group input[type="text"],
+.field-group select {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  background: var(--paper);
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.dropzone {
+  border: 1.5px dashed var(--line);
+  border-radius: 4px;
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.dropzone:hover,
+.dropzone.active {
+  border-color: var(--navy-dim);
+  background: #f2f0e9;
+}
+
+.dropzone .filename {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+button.primary {
+  background: var(--navy);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button.primary:hover { background: var(--navy-dim); }
+button.primary:disabled { background: #a9a397; cursor: not-allowed; }
+
+button.secondary {
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+  padding: 0.65rem 1.3rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* --- Results ------------------------------------------------------- */
+
+.outcome-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1.1rem 1.4rem;
+  border-radius: 4px;
+  margin-bottom: 1.75rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}
+
+.outcome-banner.pass { background: var(--green-bg); color: var(--green); }
+.outcome-banner.fail { background: var(--red-bg); color: var(--red); }
+.outcome-banner.review { background: var(--amber-bg); color: var(--amber); }
+
+.outcome-banner .meta {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+.field-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.field-card:last-child { border-bottom: none; }
+
+.field-card .field-name {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.field-card .values {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.field-card .values .expected { color: var(--ink); }
+
+.field-card .reasoning {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  color: var(--muted);
+}
+
+.status-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  height: fit-content;
+}
+
+.status-pill.match { background: var(--green-bg); color: var(--green); }
+.status-pill.partialmatch { background: var(--amber-bg); color: var(--amber); }
+.status-pill.mismatch,
+.status-pill.notfound { background: var(--red-bg); color: var(--red); }
+
+.warning-box {
+  background: var(--amber-bg);
+  color: var(--amber);
+  border-radius: 4px;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.88rem;
+  margin-bottom: 1.5rem;
+}
+
+table.batch-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+table.batch-table th {
+  text-align: left;
+  font-size: 0.78rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding: 0.5rem 0.6rem;
+}
+
+table.batch-table td {
+  padding: 0.65rem 0.6rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.summary-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.summary-stats .stat {
+  padding: 1rem 1.4rem;
+  border-radius: 4px;
+  min-width: 110px;
+}
+
+.summary-stats .stat .count {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  display: block;
+}
+
+.summary-stats .stat.pass { background: var(--green-bg); color: var(--green); }
+.summary-stats .stat.fail { background: var(--red-bg); color: var(--red); }
+.summary-stats .stat.review { background: var(--amber-bg); color: var(--amber); }
+
+.error-text {
+  color: var(--red);
+  font-size: 0.88rem;
+  margin-top: 0.75rem;
+}
