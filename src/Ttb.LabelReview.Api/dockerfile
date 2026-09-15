@@ -1,47 +1,55 @@
 # ---- Build stage ----
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
-
-COPY Ttb.LabelReview.Api.csproj .
-RUN dotnet restore Ttb.LabelReview.Api.csproj
-
-COPY . .
-RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
-
-# ---- Runtime stage ----
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-
-# Tesseract's .NET wrapper (charlesw/Tesseract) P/Invokes native libraries
-# by a specific hardcoded filename per platform, matching whatever version
-# it was built/tested against (Windows: leptonica-1.82.0.dll,
-# tesseract50.dll -- confirmed from local bin/Debug output). Debian's apt
-# packages ship the real .so files under completely different names
-# (liblept.so.5, libtesseract.so.5), so the interop loader can't find them
-# by default -- this throws DllNotFoundException at the first OCR call,
-# not at build time, which is why this wasn't caught until runtime.
-# Fix: symlink the expected filenames to the real installed libraries.
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        tesseract-ocr \
-        tesseract-ocr-eng \
-        libleptonica-dev \
-    && rm -rf /var/lib/apt/lists/* \
-    && LEPTONICA_SO=$(find / -xdev -name 'liblept.so.5*' 2>/dev/null | head -n1) \
-    && TESSERACT_SO=$(find / -xdev -name 'libtesseract.so.5*' 2>/dev/null | head -n1) \
-    && ln -sf "$LEPTONICA_SO" /usr/lib/x86_64-linux-gnu/libleptonica-1.82.0.so \
-    && ln -sf "$TESSERACT_SO" /usr/lib/x86_64-linux-gnu/libtesseract50.so \
-    && ldconfig
-
-WORKDIR /app
-COPY --from=build /app/publish .
-
-RUN if [ ! -f /app/tessdata/eng.traineddata ]; then \
-        TESSDATA_SRC=$(dirname "$(find / -xdev -name 'eng.traineddata' 2>/dev/null | head -n1)") \
-        && mkdir -p /app/tessdata \
-        && cp -r "$TESSDATA_SRC"/* /app/tessdata/; \
-    fi
-
-ENV ASPNETCORE_ENVIRONMENT=Development
-ENV ASPNETCORE_URLS=http://+:8080
-EXPOSE 8080
-
-ENTRYPOINT ["dotnet", "Ttb.LabelReview.Api.dll"]
+    FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+    WORKDIR /src
+    
+    COPY Ttb.LabelReview.Api.csproj .
+    RUN dotnet restore Ttb.LabelReview.Api.csproj
+    
+    COPY . .
+    RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+    
+    # ---- Runtime stage ----
+    FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+    
+    # Tesseract's .NET wrapper (charlesw/Tesseract) P/Invokes native libraries
+    # by a specific hardcoded filename per platform, matching whatever version
+    # it was built/tested against (Windows: leptonica-1.82.0.dll,
+    # tesseract50.dll — confirmed from local bin/Debug output). Debian's apt
+    # packages ship the real .so files under completely different names
+    # (liblept.so.5, libtesseract.so.5), so the interop loader can't find them
+    # by default — this throws DllNotFoundException at the first OCR call,
+    # not at build time, which is why this wasn't caught until runtime.
+    # Fix: symlink the expected filenames to the real installed libraries.
+    RUN apt-get update && apt-get install -y --no-install-recommends \
+            tesseract-ocr \
+            tesseract-ocr-eng \
+            libleptonica-dev \
+        && rm -rf /var/lib/apt/lists/* \
+        && LEPTONICA_SO=$(find / -xdev -name 'liblept.so.5*' 2>/dev/null | head -n1) \
+        && TESSERACT_SO=$(find / -xdev -name 'libtesseract.so.5*' 2>/dev/null | head -n1) \
+        && ln -sf "$LEPTONICA_SO" /usr/lib/x86_64-linux-gnu/libleptonica-1.82.0.so \
+        && ln -sf "$TESSERACT_SO" /usr/lib/x86_64-linux-gnu/libtesseract50.so \
+        && ldconfig
+    
+    WORKDIR /app
+    COPY --from=build /app/publish .
+    
+    # If you already have a real tessdata/ folder with eng.traineddata checked
+    # into the backend project (you do — src/Ttb.LabelReview.Api/tessdata/ in
+    # your original upload), the csproj's <Content Include="tessdata\**\*">
+    # already copies it into /app/tessdata during publish, and this step is a
+    # harmless no-op safety net. It only matters if that folder is ever missing.
+    RUN if [ ! -f /app/tessdata/eng.traineddata ]; then \
+            TESSDATA_SRC=$(dirname "$(find / -xdev -name 'eng.traineddata' 2>/dev/null | head -n1)") \
+            && mkdir -p /app/tessdata \
+            && cp -r "$TESSDATA_SRC"/* /app/tessdata/; \
+        fi
+    
+    # Prototype deployment: keep Development so Swagger UI stays reachable for
+    # Treasury reviewers. Tighten before any production/production-adjacent use.
+    ENV ASPNETCORE_ENVIRONMENT=Development
+    ENV ASPNETCORE_URLS=http://+:8080
+    EXPOSE 8080
+    
+    ENTRYPOINT ["dotnet", "Ttb.LabelReview.Api.dll"]
+    
