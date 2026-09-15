@@ -7,7 +7,7 @@ services:
     plan: free
     envVars:
       - key: Cors__AllowedOrigins__0
-        value: https://ttb-label-review-ui-tatiana.onrender.com
+        value: https://ttb-label-review-ui-yourname.onrender.com
       # Only needed if you wire up a vision fallback provider later.
       # Leaving Gemini__ApiKey unset makes GeminiVisionFallbackService
       # no-op back to OCR-only results.
@@ -19,5 +19,5 @@ services:
     dockerContext: ./frontend/ttb-label-review-ui
     plan: free
     envVars:
-      - key: VITE_API_URL
-        value: https://ttb-label-review-api-tatiana.onrender.com
+      - key: VITE_API_BASE_URL
+        value: https://ttb-label-review-api-yourname.onrender.com/api
