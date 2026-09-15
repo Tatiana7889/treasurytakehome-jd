@@ -1,23 +1,23 @@
 services:
   - type: web
-    name: ttb-label-review-api
+    name: ttb-label-review-api-yourname
     runtime: docker
-    dockerfilePath: ./backend/Dockerfile
-    dockerContext: ./backend
+    dockerfilePath: ./src/Ttb.LabelReview.Api/Dockerfile
+    dockerContext: ./src/Ttb.LabelReview.Api
     plan: free
     envVars:
       - key: Cors__AllowedOrigins__0
-        value: https://ttb-label-review-ui.onrender.com
+        value: https://ttb-label-review-ui-tatiana.onrender.com
       # Only needed if you wire up a vision fallback provider later.
       # Leaving Gemini__ApiKey unset makes GeminiVisionFallbackService
       # no-op back to OCR-only results.
 
   - type: web
-    name: ttb-label-review-ui
+    name: ttb-label-review-ui-yourname
     runtime: docker
-    dockerfilePath: ./ttb-label-review-ui/Dockerfile
-    dockerContext: ./ttb-label-review-ui
+    dockerfilePath: ./frontend/ttb-label-review-ui/Dockerfile
+    dockerContext: ./frontend/ttb-label-review-ui
     plan: free
     envVars:
       - key: VITE_API_URL
-        value: https://ttb-label-review-api.onrender.com
+        value: https://ttb-label-review-api-tatiana.onrender.com
