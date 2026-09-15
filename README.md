@@ -105,7 +105,6 @@ See the stack summary at the top of this document.
 
 ## Further reading
 
-- [`docs/api-spec.md`](docs/api-spec.md) — full API endpoint reference
 - [`docs/approach.md`](docs/approach.md) — technical approach and pipeline design
 
 ## License
