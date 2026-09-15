@@ -1,9 +1,11 @@
 # TTB Label Review Prototype
 
 Automated label-to-application verification tool built for the Alcohol
-and Tobacco Tax and Trade Bureau (TTB) which is runing 150K a year. This prototype demonstrates fast OCR-based extraction, field comparison, and batch processing to reduce
-manual workload for compliance agents reviewing Certificate of Label
-Approval (COLA) submissions.
+and Tobacco Tax and Trade Bureau (TTB), which processes roughly 150,000
+Certificate of Label Approval (COLA) submissions a year. This prototype
+demonstrates fast OCR-based extraction, field comparison, and batch
+processing to reduce manual workload for compliance agents reviewing
+COLA submissions.
 
 - ASP.NET Core Web API (.NET 8)
 - Tesseract OCR (local, no outbound ML calls)
@@ -11,12 +13,19 @@ Approval (COLA) submissions.
 - React frontend (Vite)
 - Azure App Service deployment target
 
+## Deployment
+
+_________________________________________________________________________________________________________
+FRONTEND UI TEST: https://ttb-label-review-ui-yourname.onrender.com
+BACKEND TEST: https://ttb-label-review-api-yourname.onrender.com/swagger/index.html
+_________________________________________________________________________________________________________
+
 ## Features
 
 - Upload label images (JPG/PNG/PDF)
 - Extract text using local, offline OCR
 - Identify key TTB-required fields:
-  - Brand name ( match check exactly, no technical error)
+  - Brand name (match check exactly, no technical error)
   - Class/type
   - Alcohol content
   - Net contents
@@ -29,9 +38,9 @@ Approval (COLA) submissions.
 - Fast processing (typically under 5 seconds per label)
 - Simple UI designed for non-technical reviewing agents
 
-##  **No authentication.** The API and UI have no login or access control,
-  since this is a local prototype. A real deployment would need this
-  before handling actual pre-publication label artwork.
+> **No authentication.** The API and UI have no login or access control,
+> since this is a local prototype. A real deployment would need this
+> before handling actual pre-publication label artwork.
 
 ## Prerequisites
 
@@ -42,16 +51,7 @@ Approval (COLA) submissions.
 - Azure CLI (only needed for deployment)
 
 ## Getting started
-## It exposes:
 
-proxy traffic from Vite → backend unless the backend port is whitelisted
-
-use https://localhost:<port> unless the firewall allows outbound TLS
-
-This is why:
-HTTPS → blocked
-
-HTTP → allowed
 ### Backend
 
 ```bash
@@ -95,80 +95,18 @@ common elements include:
 - Net contents
 - Name and address of bottler/producer
 - Country of origin for imports
-- Government Health Warning Statement (mandatory on all alcohol beverages UPPER CASE ONLY and BOOLD)
+- Government Health Warning Statement (mandatory on all alcohol
+  beverages; must appear in capital letters and bold type per TTB
+  regulations)
 
-## `GET /health`
-
-Simple liveness check, not under the `/api` prefix.
-
-```json
-{ "status": "healthy", "timestampUtc": "2026-08-31T14:00:00Z" }
-```
-# API specification
-
-Base URL (local development): `http://localhost:5000/swagger/index.html`
-
-Interactive Swagger UI is available at `/swagger` when running in the
-`Development` environment.
-
-## `POST /api/LabelAnalysis/analyze`
-
-Analyzes a single label image against supplied application data.
-
-**Content type:** `frontend/Images`
-
- `Images` | file | yes | JPG, PNG, or PDF of the label artwork |
- `applicationDataJson` | string (JSON) | yes | Serialized `ApplicationData` object |
-
-**`ApplicationData` JSON shape:**
-
-```json
-{
-  "brandName": "Bold Whiskey",
-  "classType": "Straight Bourbon Whiskey",
-  "alcoholContent": "45% ALC/VOL",
-  "netContents": "750 mL",
-  "bottlerOrProducerName": "Acme Distillery",
-  "bottlerOrProducerAddress": "123 Main St, Louisville, KY",
-  "countryOfOrigin": null,
-  "governmentWarningText": "GOVERNMENT WARNING: ...",
-  "beverageType": "DistilledSpirits"
-}
-```
-
-**Response `200 OK`:** `LabelAnalysisResult`
-
-```json
-{
-  "labelFileName": "bold-whiskey-front.jpg",
-  "rawOcrText": "BOLD WHISKEY STRAIGHT BOURBON WHISKEY 45% ALC/VOL 750 mL ...",
-  "ocrConfidence": 0.91,
-  "fieldResults": [
-    {
-      "fieldName": "Alcohol Content",
-      "expectedValue": "45% ALC/VOL",
-      "foundValue": "45% ALC/VOL",
-      "status": "Match",
-      "similarityScore": 1.0,
-      "reasoning": "Alcohol Content on the label matches the application.",
-      "isRequiredField": true
-    }
-  ],
-  "outcome": "Pass",
-  "processedAtUtc": "2026-08-31T14:02:11Z",
-  "processingTimeMs": 812,
-  "warnings": []
-}
-```
-
-`status` is one of: `Match`, `PartialMatch`, `Mismatch`, `NotFound`.
-`outcome` is one of: `Pass`, `Fail`, `NeedsManualReview`.
 ## Tech stack
+
+See the stack summary at the top of this document.
 
 ## Further reading
 
+- [`docs/api-spec.md`](docs/api-spec.md) — full API endpoint reference
 - [`docs/approach.md`](docs/approach.md) — technical approach and pipeline design
-
 
 ## License
 
