@@ -1,23 +1,45 @@
-# Build stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
-
-COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish
-
-# Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
-WORKDIR /app
-
-# Install Tesseract OCR
-RUN apt-get update && \
-    apt-get install -y tesseract-ocr && \
-    rm -rf /var/lib/apt/lists/*
-
-COPY --from=build /app/publish .
-
-ENV ASPNETCORE_URLS=http://+:8080
-EXPOSE 8080
-
-ENTRYPOINT ["dotnet", "Tbl.LabelReview.Api.dll"]
+# ---- Build stage ----
+    FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+    WORKDIR /src
+    
+    COPY Ttb.LabelReview.Api.csproj .
+    RUN dotnet restore Ttb.LabelReview.Api.csproj
+    
+    COPY . .
+    RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+    
+    # ---- Runtime stage ----
+    FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+    
+    # Tesseract's .NET wrapper P/Invokes the native libtesseract/libleptonica
+    # libraries. The NuGet package only ships Windows natives (confirmed from
+    # your local bin/Debug output: leptonica-1.82.0.dll, tesseract50.dll under
+    # x64/x86), so install the Linux native libs + English traineddata from apt.
+    RUN apt-get update && apt-get install -y --no-install-recommends \
+            tesseract-ocr \
+            tesseract-ocr-eng \
+            libleptonica-dev \
+        && rm -rf /var/lib/apt/lists/*
+    
+    WORKDIR /app
+    COPY --from=build /app/publish .
+    
+    # If you already have a real tessdata/ folder with eng.traineddata checked
+    # into the backend project (you do — src/Ttb.LabelReview.Api/tessdata/ in
+    # your original upload), the csproj's <Content Include="tessdata\**\*">
+    # already copies it into /app/tessdata during publish, and this step is a
+    # harmless no-op safety net. It only matters if that folder is ever missing.
+    RUN if [ ! -f /app/tessdata/eng.traineddata ]; then \
+            TESSDATA_SRC=$(dirname "$(find / -xdev -name 'eng.traineddata' 2>/dev/null | head -n1)") \
+            && mkdir -p /app/tessdata \
+            && cp -r "$TESSDATA_SRC"/* /app/tessdata/; \
+        fi
+    
+    # Prototype deployment: keep Development so Swagger UI stays reachable for
+    # Treasury reviewers. Tighten before any production/production-adjacent use.
+    ENV ASPNETCORE_ENVIRONMENT=Development
+    ENV ASPNETCORE_URLS=http://+:8080
+    EXPOSE 8080
+    
+    ENTRYPOINT ["dotnet", "Ttb.LabelReview.Api.dll"]
+    

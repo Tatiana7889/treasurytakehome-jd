@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rYo6N+99vJs=",
+  "dgSpecHash": "Jxs9PCI0s60=",
   "success": true,
-  "projectFilePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+  "projectFilePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tatiana\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Tatiana\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
@@ -103,9 +103,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.CSharp 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "Microsoft.CSharp",
       "targetGraphs": [
         "net8.0"
@@ -115,9 +115,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.VisualBasic 10.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "Microsoft.VisualBasic",
       "targetGraphs": [
         "net8.0"
@@ -127,9 +127,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.AppContext 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.AppContext",
       "targetGraphs": [
         "net8.0"
@@ -139,9 +139,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Collections 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Collections",
       "targetGraphs": [
         "net8.0"
@@ -151,9 +151,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Collections.Concurrent 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Collections.Concurrent",
       "targetGraphs": [
         "net8.0"
@@ -163,9 +163,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Collections.Immutable 1.1.37' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Collections.Immutable",
       "targetGraphs": [
         "net8.0"
@@ -175,9 +175,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.ComponentModel 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.ComponentModel",
       "targetGraphs": [
         "net8.0"
@@ -187,9 +187,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.ComponentModel.Annotations 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.ComponentModel.Annotations",
       "targetGraphs": [
         "net8.0"
@@ -199,9 +199,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Diagnostics.Debug 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Diagnostics.Debug",
       "targetGraphs": [
         "net8.0"
@@ -211,9 +211,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Diagnostics.Tools 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Diagnostics.Tools",
       "targetGraphs": [
         "net8.0"
@@ -223,9 +223,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Diagnostics.Tracing 4.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Diagnostics.Tracing",
       "targetGraphs": [
         "net8.0"
@@ -235,9 +235,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Dynamic.Runtime 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Dynamic.Runtime",
       "targetGraphs": [
         "net8.0"
@@ -247,9 +247,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Globalization 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Globalization",
       "targetGraphs": [
         "net8.0"
@@ -259,9 +259,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Globalization.Calendars 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Globalization.Calendars",
       "targetGraphs": [
         "net8.0"
@@ -271,9 +271,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Globalization.Extensions 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Globalization.Extensions",
       "targetGraphs": [
         "net8.0"
@@ -283,9 +283,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO",
       "targetGraphs": [
         "net8.0"
@@ -295,9 +295,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO.Compression 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO.Compression",
       "targetGraphs": [
         "net8.0"
@@ -307,9 +307,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO.Compression.ZipFile 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO.Compression.ZipFile",
       "targetGraphs": [
         "net8.0"
@@ -319,9 +319,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO.FileSystem 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO.FileSystem",
       "targetGraphs": [
         "net8.0"
@@ -331,9 +331,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO.FileSystem.Primitives 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO.FileSystem.Primitives",
       "targetGraphs": [
         "net8.0"
@@ -343,9 +343,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.IO.UnmanagedMemoryStream 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.IO.UnmanagedMemoryStream",
       "targetGraphs": [
         "net8.0"
@@ -355,9 +355,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Linq 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Linq",
       "targetGraphs": [
         "net8.0"
@@ -367,9 +367,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Linq.Expressions 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Linq.Expressions",
       "targetGraphs": [
         "net8.0"
@@ -379,9 +379,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Linq.Parallel 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Linq.Parallel",
       "targetGraphs": [
         "net8.0"
@@ -391,9 +391,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Linq.Queryable 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Linq.Queryable",
       "targetGraphs": [
         "net8.0"
@@ -403,9 +403,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Net.Http 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Net.Http",
       "targetGraphs": [
         "net8.0"
@@ -415,9 +415,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Net.NetworkInformation 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Net.NetworkInformation",
       "targetGraphs": [
         "net8.0"
@@ -427,9 +427,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Net.Primitives 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Net.Primitives",
       "targetGraphs": [
         "net8.0"
@@ -439,9 +439,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Numerics.Vectors 4.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Numerics.Vectors",
       "targetGraphs": [
         "net8.0"
@@ -451,9 +451,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.ObjectModel 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.ObjectModel",
       "targetGraphs": [
         "net8.0"
@@ -463,9 +463,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Reflection 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Reflection",
       "targetGraphs": [
         "net8.0"
@@ -475,9 +475,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Reflection.DispatchProxy 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Reflection.DispatchProxy",
       "targetGraphs": [
         "net8.0"
@@ -487,9 +487,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Reflection.Extensions 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Reflection.Extensions",
       "targetGraphs": [
         "net8.0"
@@ -499,9 +499,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Reflection.Primitives 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Reflection.Primitives",
       "targetGraphs": [
         "net8.0"
@@ -511,9 +511,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Reflection.TypeExtensions 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Reflection.TypeExtensions",
       "targetGraphs": [
         "net8.0"
@@ -523,9 +523,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Resources.ResourceManager 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Resources.ResourceManager",
       "targetGraphs": [
         "net8.0"
@@ -535,9 +535,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Runtime 4.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Runtime",
       "targetGraphs": [
         "net8.0"
@@ -547,9 +547,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Runtime.Extensions 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Runtime.Extensions",
       "targetGraphs": [
         "net8.0"
@@ -559,9 +559,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Runtime.Handles 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Runtime.Handles",
       "targetGraphs": [
         "net8.0"
@@ -571,9 +571,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Runtime.InteropServices 4.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Runtime.InteropServices",
       "targetGraphs": [
         "net8.0"
@@ -583,9 +583,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Runtime.Numerics 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Runtime.Numerics",
       "targetGraphs": [
         "net8.0"
@@ -595,9 +595,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Security.Claims 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Security.Claims",
       "targetGraphs": [
         "net8.0"
@@ -607,9 +607,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Security.Principal 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Security.Principal",
       "targetGraphs": [
         "net8.0"
@@ -619,9 +619,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Text.Encoding 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Text.Encoding",
       "targetGraphs": [
         "net8.0"
@@ -631,9 +631,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Text.Encoding.Extensions 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Text.Encoding.Extensions",
       "targetGraphs": [
         "net8.0"
@@ -643,9 +643,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Text.RegularExpressions 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Text.RegularExpressions",
       "targetGraphs": [
         "net8.0"
@@ -655,9 +655,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Threading 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Threading",
       "targetGraphs": [
         "net8.0"
@@ -667,9 +667,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Threading.Tasks 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Threading.Tasks",
       "targetGraphs": [
         "net8.0"
@@ -679,9 +679,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Threading.Tasks.Dataflow 4.5.25' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Threading.Tasks.Dataflow",
       "targetGraphs": [
         "net8.0"
@@ -691,9 +691,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Threading.Tasks.Parallel 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Threading.Tasks.Parallel",
       "targetGraphs": [
         "net8.0"
@@ -703,9 +703,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Threading.Timer 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Threading.Timer",
       "targetGraphs": [
         "net8.0"
@@ -715,9 +715,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Xml.ReaderWriter 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Xml.ReaderWriter",
       "targetGraphs": [
         "net8.0"
@@ -727,9 +727,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Xml.XDocument 4.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
+      "filePath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Tests\\Ttb.LabelReview.Tests.csproj",
       "libraryId": "System.Xml.XDocument",
       "targetGraphs": [
         "net8.0"

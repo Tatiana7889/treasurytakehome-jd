@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ttb.LabelReview.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae66d98a88d3a1131f33242d3958d8ef4f0e7d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ttb.LabelReview.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ttb.LabelReview.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

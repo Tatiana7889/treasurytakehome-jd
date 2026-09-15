@@ -630,11 +630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Api\\Ttb.LabelReview.Api.csproj",
+      "projectUniqueName": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Api\\Ttb.LabelReview.Api.csproj",
       "projectName": "Ttb.LabelReview.Api",
-      "projectPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Api\\Ttb.LabelReview.Api.csproj",
+      "projectPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Api\\Ttb.LabelReview.Api.csproj",
       "packagesPath": "C:\\Users\\Tatiana\\.nuget\\packages\\",
-      "outputPath": "C:\\TTB_label_Pr\\src\\Ttb.LabelReview.Api\\obj\\",
+      "outputPath": "C:\\TTB_label_Pr\\treasurytakehome-jd\\src\\Ttb.LabelReview.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tatiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
