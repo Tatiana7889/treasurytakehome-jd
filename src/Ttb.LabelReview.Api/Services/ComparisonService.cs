@@ -1,3 +1,4 @@
+using System.Text;
 using Ttb.LabelReview.Api.Models;
 
 namespace Ttb.LabelReview.Api.Services;
@@ -136,18 +137,48 @@ public class ComparisonService : IComparisonService
     }
 
     /// <summary>
-    /// TT 09/14/26: Case-insensitive substring/token-overlap heuristic. This is a
+    /// Case-insensitive substring/token-overlap heuristic. This is a
     /// prototype-grade stand-in for a proper edit-distance or embedding
     /// similarity measure — adequate for demoing the workflow, not
     /// production-grade fuzzy matching.
-   
+    ///
+    /// Token matching is tolerant of OCR noise: a needle token doesn't have
+    /// to appear verbatim in the haystack. It's scored against the best
+    /// Levenshtein-similarity match among haystack tokens, so a misread like
+    /// "8OLD" still earns partial credit toward "BOLD" instead of being
+    /// treated as a total miss just because it isn't a byte-for-byte match.
     /// </summary>
+    /// <summary>
+    /// Normalizes text before fuzzy comparison: uppercases, trims, and
+    /// strips apostrophes/quote marks entirely rather than trying to match
+    /// them exactly. OCR is specifically unreliable on small punctuation —
+    /// a straight apostrophe (') vs. a typographic one (') are different
+    /// Unicode characters that won't string-match, and OCR frequently
+    /// drops apostrophes altogether or misreads them as stray characters.
+    /// "STONE'S THROW" and "STONES THROW" should be treated as the same
+    /// brand name for compliance-matching purposes; the apostrophe isn't
+    /// content that changes what's being verified.
+    /// </summary>
+    private static string NormalizeForComparison(string text)
+    {
+        var upper = text.ToUpperInvariant().Trim();
+        var sb = new StringBuilder(upper.Length);
+        foreach (var c in upper)
+        {
+            // Strip straight ('), curly ('/'), and backtick-style apostrophes/quotes.
+            if (c is '\'' or '\u2018' or '\u2019' or '`')
+                continue;
+            sb.Append(c);
+        }
+        return sb.ToString();
+    }
+
     private static double FuzzyContains(string haystack, string needle)
     {
         if (string.IsNullOrWhiteSpace(haystack) || string.IsNullOrWhiteSpace(needle)) return 0;
 
-        var normalizedHaystack = haystack.ToUpperInvariant();
-        var normalizedNeedle = needle.ToUpperInvariant().Trim();
+        var normalizedHaystack = NormalizeForComparison(haystack);
+        var normalizedNeedle = NormalizeForComparison(needle);
 
         if (normalizedHaystack.Contains(normalizedNeedle)) return 1.0;
 
@@ -177,6 +208,12 @@ public class ComparisonService : IComparisonService
         return totalScore / needleTokens.Length;
     }
 
+    /// <summary>
+    /// Normalized Levenshtein similarity in [0, 1]; 1.0 = identical strings.
+    /// Only worth crediting when the tokens are reasonably close in length —
+    /// otherwise very short haystack tokens ("A", "OF") trivially "match"
+    /// anything with a small edit distance and inflate scores.
+    /// </summary>
     private static double TokenSimilarity(string a, string b)
     {
         if (a.Length == 0 || b.Length == 0) return 0;
