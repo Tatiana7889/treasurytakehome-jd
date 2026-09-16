@@ -37,6 +37,8 @@ RUN mkdir -p /app/x64 \
     && ln -sf "$LEPTONICA_SO" /app/x64/libleptonica-1.82.0.so \
     && ln -sf "$TESSERACT_SO" /app/x64/libtesseract50.so
 
+RUN ln -sf /usr/lib/x86_64-linux-gnu/libdl.so.2 /app/libdl.so
+
 RUN if [ ! -f /app/tessdata/eng.traineddata ]; then \
         TESSDATA_SRC=$(dirname "$(find / -xdev -name "eng.traineddata" 2>/dev/null | head -n1)") \
         && mkdir -p /app/tessdata \
