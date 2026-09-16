@@ -15,6 +15,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         tesseract-ocr \
         tesseract-ocr-eng \
         libleptonica-dev \
+        libtesseract-dev \
+        libjpeg62-turbo \
+        libpng16-16 \
+        libtiff6 \
+        libwebp7 \
+        libopenjp2-7 \
+        zlib1g \
+        libglib2.0-0 \
+        libsm6 \
+        libxext6 \
+        libxrender1 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
