@@ -1,42 +1,39 @@
 # ---- Build stage ----
-    FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-    WORKDIR /src
-    
-    # Copy csproj and restore
-    COPY Ttb.LabelReview.Api.csproj .
-    RUN dotnet restore Ttb.LabelReview.Api.csproj
-    
-    # Copy everything and publish
-    COPY . .
-    RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
-    
-    # ---- Runtime stage ----
-    FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-    
-    # Install full Tesseract + Leptonica dependency chain
-    RUN apt-get update && apt-get install -y --no-install-recommends \
-            tesseract-ocr \
-            tesseract-ocr-eng \
-            libleptonica-dev \
-            libtesseract-dev \
-            libjpeg62-turbo \
-            libpng16-16 \
-            libtiff5 \
-            libwebp7 \
-            libopenjp2-7 \
-            zlib1g \
-            libglib2.0-0 \
-            libsm6 \
-            libxext6 \
-            libxrender1 \
-        && rm -rf /var/lib/apt/lists/*
-    
-    WORKDIR /app
-    COPY --from=build /app/publish .
-    
-    ENV ASPNETCORE_ENVIRONMENT=Development
-    ENV ASPNETCORE_URLS=http://+:8080
-    EXPOSE 8080
-    
-    ENTRYPOINT ["dotnet", "Ttb.LabelReview.Api.dll"]
-    
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+COPY Ttb.LabelReview.Api.csproj .
+RUN dotnet restore Ttb.LabelReview.Api.csproj
+
+COPY . .
+RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+
+# ---- Runtime stage ----
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        tesseract-ocr \
+        tesseract-ocr-eng \
+        libleptonica-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY --from=build /app/publish .
+
+RUN mkdir -p /app/x64 \
+    && LEPTONICA_SO=$(find / -xdev -name "liblept.so.5*" 2>/dev/null | head -n1) \
+    && TESSERACT_SO=$(find / -xdev -name "libtesseract.so.5*" 2>/dev/null | head -n1) \
+    && ln -sf "$LEPTONICA_SO" /app/x64/libleptonica-1.82.0.so \
+    && ln -sf "$TESSERACT_SO" /app/x64/libtesseract50.so
+
+RUN if [ ! -f /app/tessdata/eng.traineddata ]; then \
+        TESSDATA_SRC=$(dirname "$(find / -xdev -name "eng.traineddata" 2>/dev/null | head -n1)") \
+        && mkdir -p /app/tessdata \
+        && cp -r "$TESSDATA_SRC"/* /app/tessdata/; \
+    fi
+
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "Ttb.LabelReview.Api.dll"]
